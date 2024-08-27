@@ -1,5 +1,6 @@
 
 import { Hero } from "@/components/Hero";
+import TechStack from "@/components/TechStack";
 import Image from "next/image";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         
         < Hero />
+        <TechStack />
       </div>
     </main>
   );
