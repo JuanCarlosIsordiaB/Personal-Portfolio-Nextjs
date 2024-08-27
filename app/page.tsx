@@ -1,4 +1,5 @@
 
+import Education from "@/components/Education";
 import { Hero } from "@/components/Hero";
 import TechStack from "@/components/TechStack";
 import Image from "next/image";
@@ -10,6 +11,7 @@ export default function Home() {
         
         < Hero />
         <TechStack />
+        <Education />
       </div>
     </main>
   );

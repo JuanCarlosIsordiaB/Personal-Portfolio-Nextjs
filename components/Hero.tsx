@@ -4,7 +4,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 export const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className=" py-36">
       
       <div>
         <Spotlight
