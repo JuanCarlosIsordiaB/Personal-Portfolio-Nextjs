@@ -1,8 +1,10 @@
 
 import Education from "@/components/Education";
+import Footer from "@/components/Footer";
 import { Hero } from "@/components/Hero";
+import RecentProjects from "@/components/RecentProjects";
 import TechStack from "@/components/TechStack";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
         < Hero />
         <TechStack />
         <Education />
+        <RecentProjects />
+        <Footer />
       </div>
     </main>
   );
