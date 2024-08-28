@@ -18,7 +18,7 @@ export const projects = [
     id: 2,
     title: "Tesla Eccomerce App",
     des: "A Tesla e-commerce app with a payment gateway and a user authentication system.",
-    img: "/TeslaApp.jpg",
+    img: "",
     iconLists: [
       "/next.svg",
       "/tail.svg",
