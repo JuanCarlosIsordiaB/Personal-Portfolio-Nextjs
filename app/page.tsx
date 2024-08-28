@@ -1,5 +1,6 @@
 
 import Education from "@/components/Education";
+import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import { Hero } from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
@@ -14,6 +15,7 @@ export default function Home() {
         < Hero />
         <TechStack />
         <Education />
+        <Experience />
         <RecentProjects />
         <Footer />
       </div>

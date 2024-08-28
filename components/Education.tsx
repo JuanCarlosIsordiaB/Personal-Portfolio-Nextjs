@@ -9,7 +9,7 @@ const Education = () => {
         My <span className="text-purple">Education</span>
       </h1>
       <div className="w-full mt-12 grid md:flex gap-3 ">
-        <Button className="" duration={Math.floor(Math.random() * 1000)}>
+        <Button className="" duration={1}>
           <div className="p-3 py-6 md:p-5 lg:p-10 gap-2">
             <h1 className="text-lg font-extrabold ">
               City University of Seattle
@@ -22,7 +22,7 @@ const Education = () => {
             <p className="font-light">GPA 3.8/4</p>
           </div>
         </Button>
-        <Button className="flex-1" duration={Math.floor(Math.random() * 1000)}>
+        <Button className="flex-1" duration={1}>
           <div className="p-3 py-6 md:p-5 lg:p-10 gap-2">
             <h1 className="text-lg font-extrabold">
               Universidad Autonoma de San Luis Potosi
@@ -37,7 +37,7 @@ const Education = () => {
             <p className="font-light">GPA 8.3/10</p>
           </div>
         </Button>
-        <Button className="flex-1" duration={Math.floor(Math.random() * 1000)}>
+        <Button className="flex-1" duration={1}>
           <div className="p-3 py-6 md:p-5 lg:p-10 gap-2">
             <h1 className="text-lg font-extrabold">
               BEDU + Santander Open Academy{" "}
