@@ -1,5 +1,4 @@
 import { projects } from "@/data/projects";
-import { PinContainer } from "./ui/PinContainer";
 import Image from "next/image";
 
 const RecentProjects = () => {
@@ -9,17 +8,17 @@ const RecentProjects = () => {
         Recent <span className="text-purple">Projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
-        {projects.map((project) => (
-          <div key={project.id} className="text-white border-slate-500 lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw] m-4">
+        {projects.map((project, index) => (
+          <div
+            key={index}
+            className="text-white border-slate-500 lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw] m-4"
+          >
             <div className="border border-[#394289] rounded-3xl overflow-hidden">
               {" "}
-              
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 {" "}
-                
                 <div className="relative w-full h-full lg:rounded-3xl bg-[#21264e]">
                   {" "}
-                  
                   <Image
                     width={500}
                     height={500}
@@ -32,7 +31,7 @@ const RecentProjects = () => {
                   width={500}
                   height={500}
                   src={project.img}
-                  alt=""
+                  alt="Image"
                   className="z-10 absolute bottom-0 "
                 />
               </div>
@@ -58,13 +57,23 @@ const RecentProjects = () => {
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
                     >
-                      <Image width={500} height={500} src={icon} alt="icon5"  className="p-2" />
+                      <Image
+                        width={500}
+                        height={500}
+                        src={icon}
+                        alt="icon5"
+                        className="p-2"
+                      />
                     </div>
                   ))}
                 </div>
 
                 <div className="flex justify-center items-center">
-                  <a target="_blank" href={project.link} className="flex hover:bg-indigo-800 transition-all hover:cursor-pointer lg:text-base md:text-xs text-xs text-white bg-indigo-500 px-2 py-3 rounded-md">
+                  <a
+                    target="_blank"
+                    href={project.link}
+                    className="flex hover:bg-indigo-800 transition-all hover:cursor-pointer lg:text-base md:text-xs text-xs text-white bg-indigo-500 px-2 py-3 rounded-md"
+                  >
                     Check Site
                   </a>
                 </div>

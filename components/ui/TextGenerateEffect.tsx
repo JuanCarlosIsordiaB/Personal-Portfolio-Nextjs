@@ -44,8 +44,8 @@ export const TextGenerateEffect = ({
                 filter: filter ? "blur(10px)" : "none",
               }}
             >
-              {word}{" "}
-              {idx === 1 && <br />} {/* Inserta un salto de línea después del segundo palabra */}
+              {word} {idx === 1 && <br />}{" "}
+              {/* Inserta un salto de línea después del segundo palabra */}
             </motion.span>
           );
         })}
