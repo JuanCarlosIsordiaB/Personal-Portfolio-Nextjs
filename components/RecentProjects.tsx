@@ -1,5 +1,6 @@
 import { projects } from "@/data/projects";
 import { PinContainer } from "./ui/PinContainer";
+import Image from "next/image";
 
 const RecentProjects = () => {
   return (
@@ -9,7 +10,7 @@ const RecentProjects = () => {
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((project) => (
-          <div className="text-white border-slate-500 lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw] m-4">
+          <div key={project.id} className="text-white border-slate-500 lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw] m-4">
             <div className="border border-[#394289] rounded-3xl overflow-hidden">
               {" "}
               
@@ -19,13 +20,13 @@ const RecentProjects = () => {
                 <div className="relative w-full h-full lg:rounded-3xl bg-[#21264e]">
                   {" "}
                   
-                  <img
+                  <Image
                     src="/bg.png"
                     alt={project.title}
                     className="rounded-xl "
                   />
                 </div>
-                <img
+                <Image
                   src={project.img}
                   alt=""
                   className="z-10 absolute bottom-0 "
@@ -53,7 +54,7 @@ const RecentProjects = () => {
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
                     >
-                      <img src={icon} alt="icon5" className="p-2" />
+                      <Image src={icon} alt="icon5" className="p-2" />
                     </div>
                   ))}
                 </div>
