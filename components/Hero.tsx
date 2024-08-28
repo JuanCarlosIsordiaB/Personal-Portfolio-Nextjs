@@ -5,7 +5,6 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 export const Hero = () => {
   return (
     <div className=" py-36">
-      
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -18,12 +17,10 @@ export const Hero = () => {
         <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
       </div>
 
-      
       <div
         className="h-screen w-full bg-black-100  dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
        absolute top-0 left-0 flex items-center justify-center"
       >
-        
         <div
           // chnage the bg to bg-black-100, so it matches the bg color and will blend in
           className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black-100
@@ -33,7 +30,9 @@ export const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          
+          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
+            +3 years of experience
+          </p>
           <TextGenerateEffect
             words="Software Engineer Fullstack Developer "
             className="text-center text-[40px] md:text-5xl lg:text-6xl "
@@ -43,7 +42,7 @@ export const Hero = () => {
             Juan Carlos Isordia Betancourt
           </p>
           <div className="">
-            <a href="#" className="mx-1">
+            <a href="https://www.linkedin.com/in/juan-carlos-isordia-betancourt-ab6aba271/" className="mx-1" target="_blank">
               <MagicButton
                 icon={
                   <svg
@@ -60,7 +59,7 @@ export const Hero = () => {
                 }
               />
             </a>
-            <a href="#">
+            <a href="https://github.com/JuanCarlosIsordiaB" target="_blank">
               <MagicButton
                 icon={
                   <svg
@@ -77,7 +76,7 @@ export const Hero = () => {
                 }
               />
             </a>
-            <a href="#" className="mx-1">
+            <a href="mailto:juancarlosisordiab@gmail.com" target="_blank"  className="mx-1">
               <MagicButton
                 icon={
                   <svg

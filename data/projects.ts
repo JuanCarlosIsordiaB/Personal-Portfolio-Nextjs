@@ -1,35 +1,48 @@
 export const projects = [
-    {
-      id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "/ui.earth.com",
-    },
-    {
-      id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p3.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "/ui.yoom.com",
-    },
-    {
-      id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "/ui.aiimg.com",
-    },
-    {
-      id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p3.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "/ui.apple.com",
-    },
-  ];
-  
+  {
+    id: 1,
+    title: "Taskify",
+    des: "Manage your tasks and projects with Taskify.",
+    img: "/TaskifyApp1.png",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/node.svg",
+      "/mongodb.svg",
+      "/express.svg",
+    ],
+    link: "https://taskify-app-frontend.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "Tesla Eccomerce App",
+    des: "A Tesla e-commerce app with a payment gateway and a user authentication system.",
+    img: "/TeslaApp.jpg",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/postgresql.svg",
+      "/prisma.svg",
+    ],
+    link: "https://github.com/JuanCarlosIsordiaB/Ecommerce",
+  },
+
+  {
+    id: 3,
+    title: "Crypto App",
+    des: "A cryptocurrency app that allows you to track the latest prices of cryptocurrencies.",
+    img: "/CryptoApp.jpg",
+    iconLists: ["/re.svg", "/tail.svg"],
+    link: "https://crypto-app-react-kohl.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "PatientsAdministrator",
+    des: "Get the information of your patients with PatientsAdministrator",
+    img: "/PatientsAdministratorApp.png",
+    iconLists: ["/re.svg", "/tail.svg", "/postgresql.svg", "/prisma.svg"],
+    link: "https://patients-admnistrator-react.vercel.app/",
+  },
+];
