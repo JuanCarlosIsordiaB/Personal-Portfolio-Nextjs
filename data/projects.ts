@@ -33,9 +33,9 @@ export const projects = [
     id: 3,
     title: "Crypto App",
     des: "A cryptocurrency app that allows you to track the latest prices of cryptocurrencies.",
-    img: "/CryptoApp.jpg",
-    iconLists: ["/re.svg", "/tail.svg"],
-    link: "https://crypto-app-react-kohl.vercel.app/",
+    img: "/NewCrypto.png",
+    iconLists: ["/next.svg", "/tail.svg", "/zustand.svg"],
+    link: "https://satoshi-cryptoapp.vercel.app/",
   },
   {
     id: 4,
